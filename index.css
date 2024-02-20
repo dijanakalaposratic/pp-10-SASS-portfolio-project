@@ -142,9 +142,9 @@
   padding-bottom: 2rem;
 }
 .about__bio-image {
-  height: 50vh;
+  height: 70vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(../dist/img/bio-image.jpg) center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(../dist/img/bg1.png) center top;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -157,6 +157,7 @@
 .about__bio {
   width: 80%;
   text-align: center;
+  margin: 12rem auto 12rem auto;
 }
 .about__bio .text-secondary {
   padding-bottom: 1rem;
@@ -183,13 +184,6 @@
 .about .social-icons {
   display: flex;
   flex-direction: column;
-}
-
-footer {
-  position: fixed;
-  bottom: 5em;
-  right: 0.5em;
-  transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
 body {
