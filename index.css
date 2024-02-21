@@ -142,7 +142,6 @@
   padding-bottom: 2rem;
 }
 .about__bio-image {
-  height: 70vh;
   width: 100%;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(../dist/img/bg1.png) center top;
   background-size: cover;
@@ -155,31 +154,43 @@
   margin-bottom: 2rem;
 }
 .about__bio {
+  height: 55vh;
   width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  margin: 12rem auto 12rem auto;
 }
 .about__bio .text-secondary {
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 .about .jobs {
   width: 60vw;
-  margin: 2rem auto 0 auto;
+  height: 35vh;
+  margin: 3rem auto;
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 2rem;
 }
 .about .jobs__job {
   background: #414141;
-  padding: 0.5rem;
+  padding: 1em 3rem;
   border-bottom: 5px solid #f7df1e;
 }
 .about .jobs__job h2,
 .about .jobs__job h3 {
   margin: 0.5rem 0;
 }
-.about .jobs__job h6 {
+.about .jobs__job h5 {
   margin: 0.3rem 0;
+}
+.about .jobs__job ul {
+  font-size: 0.8rem;
+  list-style-type: none;
+  margin: 0.5rem 0 0 1rem;
+}
+.about .jobs__job ul li {
+  padding: 0.2rem 0;
 }
 .about .social-icons {
   display: flex;
