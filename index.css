@@ -154,7 +154,7 @@
   margin-bottom: 2rem;
 }
 .about__bio {
-  height: 55vh;
+  height: 50vh;
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -166,7 +166,7 @@
   padding-bottom: 2rem;
 }
 .about .jobs {
-  width: 60vw;
+  width: 45vw;
   height: 35vh;
   margin: 3rem auto;
   display: grid;
