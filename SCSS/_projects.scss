@@ -2,7 +2,7 @@
 	padding-bottom: 2rem;
 
 	&__bio-image {
-		height: 30vh;
+		height: 15vh;
 		width: 100%;
 		background: linear-gradient(to right, rgba($primary-color, 0.9), rgba($primary-color, 0.3)), url(../dist/img/bg1.png) center top;
 		background-size: cover;
@@ -18,15 +18,17 @@
 	}
 
 	&__items {
-		width: 45vw;
-		height: 35vh;
+		width: 65vw;
+		// height: 35vh;
 		margin: 3rem auto;
 		display: grid;
-		grid-template-columns: 1fr;
+		grid-template-columns: repeat(3, 1fr);
 		gap: 2rem;
 	}
 
 	&__item {
+		width: 20vw;
+		height: 20vh;
 		position: relative;
 		border-bottom: 5px solid $secondary-color;
 		overflow: hidden;
