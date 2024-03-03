@@ -38,20 +38,20 @@ header {
 main {
 	height: 100%;
 	width: 100%;
+}
 
-	.social-icons {
-		position: fixed;
-		bottom: 1rem;
-		left: 1rem;
-	}
+.social-icons {
+	position: fixed;
+	bottom: 1rem;
+	left: 1rem;
+}
 
-	a {
-		padding: 0.4rem;
-		@include transition-ease;
+a {
+	padding: 0.4rem;
+	@include transition-ease;
 
-		&:hover {
-			color: $secondary-color;
-		}
+	&:hover {
+		color: $secondary-color;
 	}
 }
 

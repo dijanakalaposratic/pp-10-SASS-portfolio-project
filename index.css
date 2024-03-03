@@ -13,6 +13,10 @@
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(../dist/img/bg1.png);
   background-size: cover;
 }
+.home__title {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
 .home__name {
   font-size: 5rem;
   padding-bottom: 1rem;
@@ -341,6 +345,12 @@ header {
 main {
   height: 100%;
   width: 100%;
+}
+main .home__name {
+  text-shadow: rgba(251, 249, 249, 0.2) 0px 3px 3px, rgba(251, 249, 249, 0.5) 0px 3px 3px;
+}
+main .home__name--last {
+  text-shadow: rgba(251, 251, 249, 0.2) 0px 3px 3px, rgba(251, 249, 249, 0.5) 0px 3px 3px;
 }
 main .social-icons {
   position: fixed;

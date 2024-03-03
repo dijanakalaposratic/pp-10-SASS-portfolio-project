@@ -7,6 +7,11 @@
 	background: linear-gradient(to right, rgba($primary-color, 0.9), rgba($primary-color, 0.3)), url(../dist/img/bg1.png);
 	background-size: cover;
 
+	&__title {
+		font-size: 1.5rem;
+		margin-top: 1rem;
+	}
+
 	&__name {
 		font-size: 5rem;
 		padding-bottom: 1rem;
@@ -16,6 +21,7 @@
 		&--last {
 			color: $secondary-color;
 			font-weight: 700;
+			text-shadow: rgba($secondary-color, 0.2) 0px 3px 3px, rgba($secondary-color 0.5) 0px 3px 3px;
 		}
 	}
 }
