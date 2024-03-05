@@ -4,6 +4,7 @@
 	overflow: hidden;
 	align-items: center;
 	text-align: center;
+	background-image: linear-gradient(to right, rgba($primary-color, 0.9), rgba($secondary-color, 0.1)), url(../dist/img/bg1.png);
 	background-size: cover;
 
 	&__title {
@@ -18,6 +19,9 @@
 		border-bottom: 2px solid set-text-color($primary-color);
 
 		&--last {
+			// background: linear-gradient(to right, primary-color, $secondary-color);
+			// -webkit-background-clip: text;
+			// color: transparent;
 			color: $secondary-color;
 			font-weight: 700;
 		}

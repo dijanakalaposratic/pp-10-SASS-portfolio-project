@@ -37,7 +37,7 @@
 .about .jobs__job {
   background: #414141;
   padding: 1em 3rem;
-  border-bottom: 5px solid #f7df1e;
+  border-bottom: 5px solid rgb(247, 223, 30);
 }
 .about .jobs__job h2,
 .about .jobs__job h3 {
@@ -97,6 +97,7 @@
   overflow: hidden;
   align-items: center;
   text-align: center;
+  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(247, 223, 30, 0.1)), url(../dist/img/bg1.png);
   background-size: cover;
 }
 .home__title {
@@ -110,7 +111,7 @@
   border-bottom: 2px solid #fff;
 }
 .home__name--last {
-  color: #f7df1e;
+  color: rgb(247, 223, 30);
   font-weight: 700;
 }
 
@@ -181,7 +182,7 @@
   justify-content: center;
   height: 100vh;
   overflow: hidden;
-  background: #272727;
+  background: rgb(39, 39, 39);
   list-style-type: none;
   padding-right: 1rem;
   transform: translateY(-100%);
@@ -198,7 +199,7 @@
   transform: translateX(0);
 }
 .nav .menu-nav__item.active > a {
-  color: #f7df1e;
+  color: rgb(247, 223, 30);
 }
 .nav .menu-nav__link {
   display: inline-block;
@@ -209,7 +210,7 @@
   transition: all 0.5s ease-in-out;
 }
 .nav .menu-nav__link:hover {
-  color: #f7df1e;
+  color: rgb(247, 223, 30);
 }
 
 .menu-nav__item:nth-child(1) {
@@ -255,7 +256,7 @@
   width: 20vw;
   height: 20vh;
   position: relative;
-  border-bottom: 5px solid #f7df1e;
+  border-bottom: 5px solid rgb(247, 223, 30);
   overflow: hidden;
   cursor: pointer;
 }
@@ -269,7 +270,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: #f7df1e;
+  background: rgb(247, 223, 30);
   opacity: 0;
   transition: all 0.5s ease-in-out;
 }
@@ -306,7 +307,7 @@
 }
 
 body {
-  background: #272727;
+  background: rgb(39, 39, 39);
   color: #fff;
   height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -325,7 +326,7 @@ a {
 }
 
 .text-secondary {
-  color: #f7df1e;
+  color: rgb(247, 223, 30);
 }
 
 header {
@@ -351,7 +352,7 @@ a {
   transition: all 0.5s ease-in-out;
 }
 a:hover {
-  color: #f7df1e;
+  color: rgb(247, 223, 30);
 }
 
 footer {
