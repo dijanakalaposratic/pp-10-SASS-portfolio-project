@@ -1,3 +1,5 @@
+@import './config';
+
 .contact {
 	height: 100%;
 	overflow: hidden;
@@ -6,7 +8,6 @@
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	background: linear-gradient(to right, rgba($primary-color, 0.9), rgba($primary-color, 0.3)), url(../dist/img/bg1.png);
 	background-size: cover;
 
 	h2 {

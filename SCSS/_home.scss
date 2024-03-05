@@ -1,10 +1,11 @@
+@import './config';
+
 .home {
 	height: 100%;
 	padding-top: 40vh;
 	overflow: hidden;
 	align-items: center;
 	text-align: center;
-	background: linear-gradient(to right, rgba($primary-color, 0.9), rgba($primary-color, 0.3)), url(../dist/img/bg1.png);
 	background-size: cover;
 
 	&__title {
@@ -21,7 +22,6 @@
 		&--last {
 			color: $secondary-color;
 			font-weight: 700;
-			text-shadow: rgba($secondary-color, 0.2) 0px 3px 3px, rgba($secondary-color 0.5) 0px 3px 3px;
 		}
 	}
 }

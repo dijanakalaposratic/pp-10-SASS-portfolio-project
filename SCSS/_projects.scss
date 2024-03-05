@@ -1,10 +1,11 @@
+@import './config';
+
 .projects {
 	padding-bottom: 2rem;
 
 	&__bio-image {
 		height: 15vh;
 		width: 100%;
-		background: linear-gradient(to right, rgba($primary-color, 0.9), rgba($primary-color, 0.3)), url(../dist/img/bg1.png) center top;
 		background-size: cover;
 		display: flex;
 		flex-direction: column;
