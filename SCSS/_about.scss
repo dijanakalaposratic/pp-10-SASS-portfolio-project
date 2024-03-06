@@ -19,9 +19,15 @@
 		align-items: center;
 		justify-content: center;
 		text-align: center;
+		font-size: 1.5rem;
+		line-height: 1.5;
 
 		.text-secondary {
 			padding-bottom: 2rem;
+		}
+
+		p {
+			font-size: 1.5rem;
 		}
 	}
 
