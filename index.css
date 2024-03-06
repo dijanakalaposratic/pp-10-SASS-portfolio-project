@@ -9,6 +9,7 @@
 }
 .about__bio-image {
   width: 100%;
+  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(247, 223, 30, 0.1)), url(../dist/img/bg1.png);
   background-size: cover;
   display: flex;
   flex-direction: column;
