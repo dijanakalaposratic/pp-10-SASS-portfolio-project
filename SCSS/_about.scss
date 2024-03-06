@@ -3,7 +3,7 @@
 
 	&__bio-image {
 		width: 100%;
-		background-image: linear-gradient(to right, rgba($primary-color, 0.9), rgba($secondary-color, 0.1)), url(../dist/img/bg1.png);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../dist/img/bg1.png);
 		background-size: cover;
 		display: flex;
 		flex-direction: column;

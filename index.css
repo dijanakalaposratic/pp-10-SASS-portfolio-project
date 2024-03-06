@@ -9,7 +9,7 @@
 }
 .about__bio-image {
   width: 100%;
-  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(247, 223, 30, 0.1)), url(../dist/img/bg1.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../dist/img/bg1.png);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -73,12 +73,14 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../dist/img/bg1.png);
   background-size: cover;
 }
 .contact h2 {
   font-size: 4rem;
   margin-bottom: 10rem;
   text-shadow: rgba(251, 249, 249, 0.2) 0px 6px 6px, rgba(251, 249, 249, 0.5) 0px 6px 6px;
+  text-align: center;
 }
 .contact__list {
   display: flex;
