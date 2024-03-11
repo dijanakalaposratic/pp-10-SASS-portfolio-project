@@ -89,12 +89,23 @@
 }
 .contact__list li {
   margin: 1.2rem;
-  transition: transform 0.3s ease-in-out;
 }
+.contact__list li i,
 .contact__list li a {
   font-size: 1.5rem;
+  color: #ffffff;
+  transition: transform 0.3s ease-in-out;
 }
-.contact__list li:hover {
+.contact__list li span {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+.contact__list li:hover i,
+.contact__list li:hover a {
+  color: rgb(247, 223, 30);
+}
+.contact__list li:hover span {
+  color: rgb(247, 223, 30);
   transform: translateY(-5px);
   text-shadow: rgba(0, 0, 0, 0.1) 0px 6px 6px, rgba(0, 0, 0, 0.3) 0px 6px 6px;
 }
